@@ -1,0 +1,25 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true,
+      "source.fixAll": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.tabSize": 2,
+    "editor.autoIndent": "full",
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.suggestSelection": "first",
+    "editor.wordBasedSuggestions": true,
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "prettier.singleQuote": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.trailingComma": "all",
+    "prettier.arrowParens": "avoid",
+    "prettier.printWidth": 80,
+    "prettier.tabWidth": 2,
+    "prettier.useTabs": false
+  }
+  
