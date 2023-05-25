@@ -1,6 +1,6 @@
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import React from 'react';
-import ResponsiveAppBar from './navBar/ResponsiveAppBar';
+import Router from '../components/router/Router';
 
 const theme = createTheme({
   status: {
@@ -25,7 +25,7 @@ const theme = createTheme({
 const IndexPage = () => {
   return (
     <ThemeProvider theme={theme}>
-      <ResponsiveAppBar />
+      <Router />
     </ThemeProvider>
   );
 };
