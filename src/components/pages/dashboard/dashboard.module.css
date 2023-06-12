@@ -1,0 +1,38 @@
+.topRectangle {
+  /* background-color: rgb(94, 92, 92); */
+  height: 150px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.middleRectangle {
+  /*  background-color: rgb(94, 92, 92); */
+  height: 300px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottomRectangle {
+  /* background-color: rgb(94, 92, 92); */
+  height: 100px;
+  width: 100%;
+  border-radius: 8px;
+  padding: 5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
