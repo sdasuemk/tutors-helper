@@ -1,0 +1,25 @@
+{
+  // Prettier configuration
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  // ESLint configuration
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+
+  // Global editor settings
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.wordWrap": "on",
+
+  // Enable/disable specific ESLint rules (optional, customize based on your project's requirements)
+  "eslint.rules": {
+    "semi": "error", // Enforce semicolons
+    "quotes": ["error", "single"], // Enforce single quotes
+    "indent": ["error", 2], // Enforce 2-space indentation
+    "react/jsx-uses-react": "error", // Detect missing 'react' import when using JSX
+    "react/jsx-uses-vars": "error" // Detect unused variables in JSX
+    // Add more ESLint rules as per your project's requirements
+  }
+}
